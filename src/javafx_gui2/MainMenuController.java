@@ -102,12 +102,12 @@ public class MainMenuController implements Initializable {
      */
     public void inicioSesionButtonPushed(ActionEvent inicio) throws IOException{
         System.out.println("holi");
-        /*Parent inicioSesionParent = FXMLLoader.load(getClass().getResource("Main_Menu.fxml"));
+        Parent inicioSesionParent = FXMLLoader.load(getClass().getResource("User_Menu.fxml"));
         Scene inicioSesionScene = new Scene (inicioSesionParent);
         
         Stage window = new Stage();
         window .setScene(inicioSesionScene);
-        window.show();*/
+        window.show();
         
         
     }
